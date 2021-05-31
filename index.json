@@ -1,0 +1,27 @@
+{
+    "type":"SiP",
+    "name":"nRF9160",
+    "Freq":"64MHz",
+    "Core":"Cortex-M4",
+    "title": "nordicsemi nRF9160 SiP",
+    "description":"nordicsemi Cortex-M4 SiP",
+    "manufacturer": {
+        "vendor":"nordicsemi",
+        "homepage":"https://www.nordicsemi.com/Products/Low-power-cellular-IoT/nRF9160"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/nRF9160.git"
+    },
+    "version":"1.0.0",
+    "series":["nRF9160KC","nRF9160JC","nRF9160KE","nRF9160PE"],
+    "package":["UFBGA100","LQFP100","LQFP64","LQFP48","QFN60","QFN48"],
+    "peripheral": ["ADC","UART","I2C","SPI","PWM"],
+    "keywords": [
+        "AES","DES","3DES","SM1","SM3","SM4","SM7","MD5","SHA1","SHA224","SHA256","CRC","TRANG",
+        "ADC","DAC","SDIO","CAN","USB","I2S","SPI",
+        "64MHz",
+        "LQFP144","LQFP100","BGA176",
+        "3.6V","1.8V"
+    ]
+}
